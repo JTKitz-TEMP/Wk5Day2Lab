@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document 
+	Created:	24/Feb/2017
+	Author: 	James Kitzhaber
+*/
+
+#Logo{
+	max-height: 100px;
+	width: auto;
+}
+.imageHolder{
+	text-align: center;
+}
+
+#groupPic{
+	width: 80%;
+	height: auto;
+}

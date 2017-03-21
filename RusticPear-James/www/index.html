@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Theme Override -->
+    <link rel="stylesheet" href="css/themes/RusticPear.css" />
+    <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+    <!-- Required JQuery -->
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script> 
+    <script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script> 
+    <!-- My CSS -->
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+	<title>Rustic Pear Salon</title>
+</head>
+
+<body>
+	<!-- HOME PAGE -->
+	<div data-role="page" data-theme="f" id="home">
+    	<header data-role="header">
+        	<h1>Rustic Pear Salon</h1>
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" data-theme="f" class="ui-btn-active" data-transition="slide">Home</a></li>
+					<li><a href="#aboutus" data-icon="grid" data-theme="f" data-transition="slide">About Us</a></li>
+            		<li><a href="#contactus" data-icon="info" data-theme="f" data-transition="slide">Contact Us</a></li>
+				</ul>
+			</div>
+    	</header>
+        <section data-role="content">
+            <div data-form="ui-body-f" class="ui-body ui-body-f ui-corner-all" style="text-align: center">
+                <h2>Rustic Pear Salon</h2>
+                <h3>Come in and get your hair treated right!</h3>
+            </div>
+        </section>
+        <footer data-role="footer" class="ui-bar">
+        	<div class="imageHolder">
+                <img src="images/logo.jpg" alt="Rustic Pear Salon Logo" id="Logo" />
+            </div>
+    	</footer>
+	</div>
+    <!-- About Page -->
+    <div data-role="page" data-theme="f" id="aboutus">
+    	<header data-role="header">
+        	<h1>Rustic Pear Salon</h1>
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" data-theme="f" data-transition="slide">Home</a></li>
+					<li><a href="#aboutus" data-icon="grid" data-theme="f" class="ui-btn-active" data-transition="slide">About Us</a></li>
+            		<li><a href="#contactus" data-icon="info" data-theme="f" data-transition="slide">Contact Us</a></li>
+				</ul>
+			</div>
+    	</header>
+        <section data-role="content">
+            <div data-form="ui-body-f" class="ui-body ui-body-f ui-corner-all">
+                <h2>About us</h2>
+                <p>Rustic Pear Salon is located in beautiful downtown Twin Falls. It has a rustic charm with elegant touches. It is a full service salon.</p>
+                <div class="ui-bar">
+                    <div data-role="controlgroup" data-type="horizontal">
+                        <a href="#groupPhoto" data-role="button" data-icon="info" data-transition="pop">The Team</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer data-role="footer" class="ui-bar">
+        	<div class="imageHolder">
+                <img src="images/logo.jpg" alt="Rustic Pear Salon Logo" id="Logo" />
+            </div>
+    	</footer>
+	</div>
+    
+    <!-- Group Photo -->
+    <div data-role="page" id="groupPhoto" data-theme="f">
+    	<header data-role="header">
+        	<h1>The Team</h1>
+    	</header>
+    	<section data-role="content">
+        	<div data-form="ui-body-f" class="ui-body ui-body-f ui-corner-all">
+                <div class="imageHolder">
+                    <img src="images/Group.jpg" id="groupPic" alt="The Rustic Pear Salon Team" />
+                </div>
+                <section data-role="collapsible-set">	
+                    <div data-role="collapsible">
+                        <h2>Valaree Potts</h2>
+                        <p>208-219-2494</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2>Amanda Jacobi</h2>
+                        <p>208-570-7720</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2>Courtney K Beams</h2>
+                        <p>208-420-7529</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2>Kelsie Bryant</h2>
+                        <p>208-860-3231</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2>Lexi Bernhisel Hicks</h2>
+                        <p>208-293-5770</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2>Amber Salinas</h2>
+                        <p>208-431-5883</p>
+						<p>Co-Owner</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2>Ronda Hansen</h2>
+                        <p>208-731-9897</p>
+						<p>Co-Owner</p>
+                    </div>
+                    <div data-role="collapsible">
+                        <h2>Shelby Amanda Nelson</h2>
+                        <p>208-308-6764</p>
+                    </div><div data-role="collapsible">
+                        <h2>Alicia Jo Olsen</h2>
+                        <p>208-308-6638</p>
+						<p>Co-Owner</p>
+                    </div>
+    			</section>
+			</div>
+            <a href="#aboutus" data-role="button" data-icon="back" data-transition="pop">Go Back</a>
+    	</section>
+	</div>
+    
+    <!-- Contact Page -->
+    <div data-role="page" data-theme="f" id="contactus">
+    	<header data-role="header">
+        	<h1>Rustic Pear Salon</h1>
+        	<div data-role="navbar">
+				<ul>
+					<li><a href="#home" data-icon="home" data-theme="f" data-transition="slide">Home</a></li>
+					<li><a href="#aboutus" data-icon="grid" data-theme="f" data-transition="slide">About Us</a></li>
+            		<li><a href="#contactus" data-icon="info" data-theme="f" class="ui-btn-active" data-transition="slide">Contact Us</a></li>
+				</ul>
+			</div>
+    	</header>
+        <section data-role="content">
+            <div data-form="ui-body-f" class="ui-body ui-body-f ui-corner-all">
+                <h2>Contact Us</h2>
+                <h4>Address</h4>
+                <p>222 Main Ave N<br />Twin Falls, Idaho</p>
+                <h4>Phone Number</h4>
+                <p>(208) 733-5377</p>
+                <h3>Check out our <a href="https://www.facebook.com/RusticPearSalon/" data-theme="f" data-form="ui-link-f" class="ui-link">Facebook</a> page</h3>
+            </div>
+        </section>
+        <footer data-role="footer" class="ui-bar">
+        	<div class="imageHolder">
+                <img src="images/logo.jpg" alt="Rustic Pear Salon Logo" id="Logo" />
+            </div>
+    	</footer>
+	</div>
+    
+</body>
+</html>
